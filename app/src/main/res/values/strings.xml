@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Grocery App</string>
+
+    <string name="add_item">Add Item</string>
+    <string name="sort">Sort</string>
+    <string name="history">History</string>
+    <string name="empty_list">Add items to show list</string>
+
+    <string name="title_activity_add_item">AddItemActivity</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="nameTxt">Name*</string>
+    <string name="quantityTxt">Quantity</string>
+    <string name="fromTxt">From</string>
+    <string name="listName">Grocery List</string>
+</resources>

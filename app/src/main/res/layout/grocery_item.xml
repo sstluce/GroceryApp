@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="4dp"
+    android:paddingRight="8dp">
+
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:padding="4dp"
+        android:text="@string/nameTxt"
+        android:textSize="20dp"
+        android:singleLine="true" />
+
+    <ImageView
+        android:id="@+id/itemFav"
+        android:clickable="true"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/itemFav"
+        android:layout_centerVertical="true"
+        android:paddingRight="8dp" >
+
+        <TextView
+            android:id="@+id/itemQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/quantityTxt"
+            android:textSize="12dp"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/itemFrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/itemQuantity"
+            android:layout_alignParentRight="true"
+            android:text="@string/fromTxt"
+            android:textSize="12dp"
+            android:singleLine="true"/>
+    </RelativeLayout>
+</RelativeLayout>

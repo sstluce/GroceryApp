@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/shanestluce/AndroidStudioProjects/GroceryApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/shanestluce/AndroidStudioProjects/GroceryApp/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-60d448ff1974e3e90d81f9e2a693bfa46e78be25.jar" />
+    </item>
+    <item
+        jar="/Users/shanestluce/AndroidStudioProjects/GroceryApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/shanestluce/AndroidStudioProjects/GroceryApp/app/build/intermediates/pre-dexed/debug/classes-292b2d6eea1db3a62a0c93517a0ba9e074025559.jar" />
+    </item>
+    <item
+        jar="/Users/shanestluce/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/shanestluce/AndroidStudioProjects/GroceryApp/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-2940099b49f2c7df55119bd44647f479c842fa9b.jar" />
+    </item>
+    <item
+        jar="/Users/shanestluce/AndroidStudioProjects/GroceryApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/shanestluce/AndroidStudioProjects/GroceryApp/app/build/intermediates/pre-dexed/debug/classes-d4f4ac7a7488ffb36f58582ea888ca76dcc9546f.jar" />
+    </item>
+
+</items>
