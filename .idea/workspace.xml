@@ -1294,7 +1294,11 @@
       <created>1428978119776</created>
       <updated>1428978119776</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Changes made to list layout.&#10;Add item functionality on first screen">
+      <created>1428978132634</created>
+      <updated>1428978132634</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
