@@ -19,11 +19,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71a4378b-4905-4428-8064-55c11ee1e7fe" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grocery/groceryapp/AddItemActivity.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/grocery/groceryapp/GroceryListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grocery/groceryapp/GroceryListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_grocery_list.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_grocery_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Grocery App.iws" />
@@ -1295,7 +1290,11 @@
       <created>1428963385175</created>
       <updated>1428963385175</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Changes made to list layout.&#10;Add item functionality on first screen">
+      <created>1428978119776</created>
+      <updated>1428978119776</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1378,7 +1377,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Changes made to list layout.&#10;Add item functionality on first screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes made to list layout.&#10;Add item functionality on first screen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
