@@ -13,4 +13,6 @@
     <string name="quantityTxt">Quantity</string>
     <string name="fromTxt">From</string>
     <string name="listName">Grocery List</string>
+    <string name="update_item">Update Item</string>
+    <string name="prompt_item">Enter Item Name</string>
 </resources>
