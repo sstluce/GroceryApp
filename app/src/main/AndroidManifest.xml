@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.grocery.groceryapp" >
 
     <application
@@ -10,9 +11,10 @@
         <activity
             android:name=".GroceryListActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize"
+            android:windowSoftInputMode="stateHidden|adjustPan"
             android:label="@string/app_name"
-            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            android:theme="@android:style/Theme.Material.Light" >
+        <!--    android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

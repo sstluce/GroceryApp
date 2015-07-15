@@ -89,6 +89,7 @@ public class GroceryListActivity extends Activity {
                 GroceryItem gItem = (GroceryItem) parent.getItemAtPosition(position);
                 gItem.selected();
                 gAdapter.notifyDataSetChanged();
+                hideKeyboard();
             }
         });
         groceryList.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
@@ -98,23 +99,26 @@ public class GroceryListActivity extends Activity {
                 return true;
             }
         });
-        groceryList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                //hideKeyboard();
-            }
-        });
         findViewById(R.id.frameList).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 hideKeyboard();
             }
         });
-        groceryList.setOnItemClickListener(new AdapterView.OnItemClickListener(){
-
+        itemInput.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                hideKeyboard();
+            public void onFocusChange(View v, boolean hasFocus) {
+                if(hasFocus){
+                    Log.d("Input", "Focused: "+findViewById(R.id.headerTxt).getY());
+                    Log.d("Input", "Focused: "+findViewById(R.id.headerTxt).getY());
+                    Log.d("Input", "Focused: "+findViewById(R.id.headerTxt).getY());
+                    Log.d("Input", "Focused: "+findViewById(R.id.headerTxt).getY());
+                }else{
+                    Log.d("Input", "Unfocused: "+findViewById(R.id.headerTxt).getY());
+                    Log.d("Input", "Unfocused: "+findViewById(R.id.headerTxt).getY());
+                    Log.d("Input", "Unfocused: "+findViewById(R.id.headerTxt).getY());
+                    Log.d("Input", "Unfocused: "+findViewById(R.id.headerTxt).getY());
+                }
             }
         });
     }
@@ -187,6 +191,16 @@ public class GroceryListActivity extends Activity {
         if (view != null) {
             InputMethodManager inputManager = (InputMethodManager) this.getSystemService(Context.INPUT_METHOD_SERVICE);
             inputManager.hideSoftInputFromWindow(view.getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
+        }
+        itemInput.clearFocus();
+        if(itemInput == this.getCurrentFocus()){
+            Log.d("Focus", "itemInput");
+            Log.d("Focus", "itemInput");
+            Log.d("Focus", "itemInput");
+        }else{
+            Log.d("Focus", "not itemInput");
+            Log.d("Focus", "not itemInput");
+            Log.d("Focus", "not itemInput");
         }
         itemInput.setText("");
         groceryList.setStackFromBottom(false);
